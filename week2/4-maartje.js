@@ -49,7 +49,7 @@ for (let i = 0; i < tasks.length ; i++) {
         paidMinutes += tasks[i].duration;
     }
 }
-console.log(paidMinutes);
+console.log('Total amount of paid minutes: ' + paidMinutes);
 let hourlyWage = 25.70;
 let earnings = paidMinutes / 60 * hourlyWage;
 
