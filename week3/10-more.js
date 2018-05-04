@@ -1,6 +1,6 @@
 'use strict';
-let obj = {};
-let teachers = [
+const obj = {};
+const teachers = [
   { firstName: 'Jim', lastName: 'Cramer' },
   { firstName: 'Philipp', lastName: 'Beau' },
   { firstName: 'Unmesh', lastName: 'Joshi' },
@@ -12,3 +12,5 @@ teachers[1].languages = ['HTML', 'CSS'];
 teachers[2].languages = ['CLI', 'GIT'];
 teachers[3].languages = ['CLI', 'GIT'];
 teachers[4].languages = ['CLI', 'GIT'];
+
+console.log(teachers);
