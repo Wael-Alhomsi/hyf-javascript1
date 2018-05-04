@@ -6,4 +6,5 @@ function advertisement(arr) {
     } return 'Amazing Wael\'s Garage, we service ' + str + ' and ' + arr[arr.length - 1] + 's.';
 }
 const vehicles = ['car', 'motorbike', 'caravan', 'bike', 'truck',];
+
 console.log(advertisement(vehicles));

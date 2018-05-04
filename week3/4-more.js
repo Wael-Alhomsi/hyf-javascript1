@@ -8,7 +8,7 @@ function vehicleType(color, code) {
         return 'a ' + color + ' unknown vehicle';
     }
 }
-const myVehicle = vehicleType('red', 1);
+const myVehicle = vehicleType('black', 1);
 const hisVehicle = vehicleType('blue', 2);
 const herVehicle = vehicleType('pink', 10);
 console.log(myVehicle);

@@ -14,7 +14,7 @@ function vehicleType(color, code, age) {
         return 'a ' + color + ' used' + ' unknown vehicle';
     }
 }
-const myVehicle = vehicleType('red', 1, 2);
+const myVehicle = vehicleType('black', 1, 2);
 const hisVehicle = vehicleType('blue', 2, 0.4);
 const herVehicle = vehicleType('pink', 10, 7);
 console.log(myVehicle);

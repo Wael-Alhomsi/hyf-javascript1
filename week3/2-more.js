@@ -3,5 +3,4 @@ function colorCar(color) {
     const str = 'A fast ' + color + ' car.';
     return str;
 }
-const myCar = colorCar('blue');
-console.log(myCar);
+console.log(colorCar('blue'));

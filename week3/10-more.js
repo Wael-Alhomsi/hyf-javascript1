@@ -12,5 +12,5 @@ teachers[1].languages = ['HTML', 'CSS'];
 teachers[2].languages = ['CLI', 'GIT'];
 teachers[3].languages = ['CLI', 'GIT'];
 teachers[4].languages = ['CLI', 'GIT'];
-
 console.log(teachers);
+
