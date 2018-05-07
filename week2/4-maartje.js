@@ -1,4 +1,5 @@
 'use strict';
+
 const monday = [
   {
     name: 'Write a summary HTML/CSS',
@@ -44,13 +45,17 @@ const tuesday = [
 const tasks = monday.concat(tuesday);
 
 let paidMinutes = 0;
+
 for (let i = 0; i < tasks.length; i++) {
   if (tasks[i].duration >= 120) {
     paidMinutes += tasks[i].duration;
   }
 }
+
 console.log('Total amount of paid minutes: ' + paidMinutes);
-let hourlyWage = 25.70;
-let earnings = paidMinutes / 60 * hourlyWage;
+
+const hourlyWage = 25.70;
+
+const earnings = paidMinutes / 60 * hourlyWage;
 
 console.log('Maartje has earned € ' + earnings.toFixed(2));

@@ -1,13 +1,14 @@
 'use strict';
 let favoriteAnimals = ['blowfish', 'capricorn', 'giraffe'];
-favoriteAnimals.push("turtle");
+favoriteAnimals.push('turtle');
 console.log(favoriteAnimals);
-favoriteAnimals.splice(1, 0, "meerkat");
+favoriteAnimals.splice(1, 0, 'meerkat');
 console.log('The new value of the array would be: [\'blowfish\', \'meerkat\', \'capricorn\', \'giraffe\', \'turtle\']');
 console.log(favoriteAnimals);
 console.log('The array has a length of:' + favoriteAnimals.length);
 favoriteAnimals.splice(3, 1);
 console.log(favoriteAnimals);
-console.log('The item you are looking for is at index:' + favoriteAnimals.indexOf('meerkat'));
-favoriteAnimals.splice(favoriteAnimals.indexOf('meerkat'), 1);
+const index = favoriteAnimals.indexOf('meerkat');
+console.log('The item you are looking for is at index:' + index);
+favoriteAnimals.splice(index, 1);
 console.log(favoriteAnimals);

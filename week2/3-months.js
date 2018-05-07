@@ -14,12 +14,15 @@ const months = [
     { name: 'November', days: 30 },
     { name: 'December', days: 31 }
 ];
+
 let totalDays = 0;
+
 for (let i = 0; i < months.length; i++) {
     console.log(months[i].name, 'has', months[i].days, 'days');
     totalDays += months[i].days;
     console.log('Total days add up to: ' + totalDays);
 }
+
 if (totalDays === 365) {
     console.log('Yep, it adds up to 365.');
 } else {
