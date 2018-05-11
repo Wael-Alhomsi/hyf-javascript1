@@ -1,9 +1,11 @@
 'use strict';
+
 function printObject(obj) {
     for (const key in obj) {
-        console.log(key + ': ' + obj[key])
+        console.log(key + ': ' + obj[key]);
     }
 }
+
 const me = {};
 me.firstName = 'Wael';
 me.lastName = 'Alhomsi';

@@ -1,4 +1,5 @@
 'use strict';
+
 const o1 = { foo: 'bar' };
 const o2 = { foo: 'bar' };
 const o3 = o2;

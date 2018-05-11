@@ -1,7 +1,9 @@
 'use strict';
-function invoiceAmount(priceItem1, priceItem2, priceItem3) {
-    const totalAmount = priceItem1 + priceItem2 + priceItem3;
+
+function computeTotalAmount(amount1, amount2, amount3) {
+    const totalAmount = amount1 + amount2 + amount3;
     return totalAmount;
 }
-let invoice = invoiceAmount(13, 19, 44);
+
+const invoice = computeTotalAmount(13, 19, 44);
 console.log(invoice);
